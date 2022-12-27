@@ -18,7 +18,6 @@
 // if its true then make a for loop to push every item from rigthSide to result
 // return result
 function mergeSort(array) {
-    console.log('start')
     let result = []
     if(array.length <= 1) {
         result.push(array[0])
